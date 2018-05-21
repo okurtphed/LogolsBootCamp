@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Exercises/1.2_switch/1.2_switch.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
