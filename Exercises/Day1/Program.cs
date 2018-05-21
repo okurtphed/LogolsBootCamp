@@ -5,21 +5,25 @@ namespace Day1 {
         static void Main (string[] args) {
             Console.WriteLine ("Put any number");
 
-            int num = Convert.ToInt32 (Console.ReadLine ());
+            int status = Convert.ToInt32 (Console.ReadLine ());
 
-            if (num < 20) {
-                Console.WriteLine ("small");
-            } else {
-                Console.WriteLine ("big");
+            switch (status) {
+
+                case 1:
+                    Console.WriteLine ("Alive");
+                    break;
+
+                case 2:
+                    Console.WriteLine ("Zombie");
+                    break;
+                case 3:
+                    Console.WriteLine ("Dead");
+                    break;
+                default:
+                    Console.WriteLine ("Unknown");
+                    break;
+
             }
-
-            // not working! for switch
-            /*
-                
-            if conditions are
-            ok with ><
-             */
-
         }
     }
 }

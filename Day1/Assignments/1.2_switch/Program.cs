@@ -17,7 +17,7 @@ namespace _1._2_switch {
                 case 3:
                     Console.WriteLine ("Dead");
                     break;
-                case 4:
+                default:
                     Console.WriteLine ("Unknown");
                     break;
             }
