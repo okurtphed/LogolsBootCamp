@@ -1,9 +1,7 @@
 ﻿using System;
 
-namespace _2._2_do_while
-{
-    class Program
-    {
+namespace _2._2_do_while {
+    class Program {
         static void Main (string[] args) {
             int[] status = { 1, 1, 2, 3, 2, 4 };
             string[] names = { "John", "Kurt", "Justin", "Hanna", "Diamond", "Mia" };
