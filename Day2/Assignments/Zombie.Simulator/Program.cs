@@ -32,7 +32,7 @@ namespace Zombie.Simulator
 
             Human h2 = new Human ();
             h2.DistanceTraveled = 10;
-            h2.Walk (1);
+            h2.Walk (1); //can still get person walk function
             h2.Run (7);
             Console.WriteLine ("h2 travelled: " + h2.DistanceTraveled);
         }
