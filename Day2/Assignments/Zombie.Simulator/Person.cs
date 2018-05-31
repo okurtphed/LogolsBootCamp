@@ -9,7 +9,7 @@ namespace Zombie.Simulator
             Console.WriteLine ("New person has been created.");
         }
 
-        public virtual void Walk (decimal minutes) {
+        public virtual void Walk (int minutes) {
             DistanceTraveled = DistanceTraveled + minutes * 2;
         }
     }
